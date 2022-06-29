@@ -57,12 +57,10 @@ null),
  'charset' => env('DB_CHARSET', 'utf8'),
  'collation' => env('DB_COLLATION', 'utf8_unicode_ci'),
  'prefix' => env('DB_PREFIX', ''),
- // 'strict' => 
-env('DB_STRICT_MODE', false),
+ // 'strict' => env('DB_STRICT_MODE', false),
  // 'engine' => env('DB_ENGINE', null),
- // 'timezone' => 
-env('DB_TIMEZONE', '+00:00'),
- ],
+ // 'timezone' => env('DB_TIMEZONE', '+00:00'),
+],
  'sqlsrv' => [
  'driver' => 'sqlsrv',
  'host' => env('DB_HOST1', null),
